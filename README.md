@@ -1,12 +1,40 @@
-# React + Vite
+# 🌟 Random Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed Random Quote Generator built with **React.js**, styled using **Tailwind CSS**, and powered by the **API Ninjas Quotes API**.  
+Each visit or button click fetches a fresh, inspiring quote with a visually aesthetic background.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Fetches a new quote on each reload or button click
+- 🎨 Stylish animated quote card with hover effects
+- 🖼️ Beautiful background (image or video support)
+- 🔥 Built with **Vite + React + Tailwind CSS**
+- 🌐 Uses `axios` to fetch quotes from external API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **HTTP Client:** Axios
+- **Bundler:** Vite
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/pradeepkumar6382/Randomquote.git
+
+# 2. Navigate into the project directory
+cd Randomquote
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
